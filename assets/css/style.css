@@ -438,14 +438,14 @@ main {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 15px;
+  gap: 25px;
   padding-bottom: 4px;
   padding-left: 7px;
 }
 
 .social-item .social-link {
   color: var(--light-gray-70);
-  font-size: 18px;
+  font-size: 25px;
 }
 
 
