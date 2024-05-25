@@ -203,6 +203,15 @@
             <li class="navbar-item">
               <button class="navbar-link" data-nav-link>Blog</button>
             </li>
+             <li class="navbar-item">
+              <button
+                class="navbar-link"
+                onclick="triggerInfoMoreButton()"
+                data-nav-link
+              >
+                Contact
+              </button>
+            </li>
           </ul>
         </nav>
 
@@ -1093,5 +1102,25 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+    <script>
+          function triggerInfoMoreButton() {
+            // Select the button using its class name
+            const button = document.querySelector(".info_more-btn");
+
+            // Check if the button exists
+            if (button) {
+              // Create a new click event
+              const clickEvent = new Event("click");
+
+              // Dispatch the event to trigger the click
+              button.dispatchEvent(clickEvent);
+            } else {
+              console.log("Button not found.");
+            }
+          }
+
+          // Call the function to trigger the button
+          triggerInfoMoreButton();
+        </script>
   </body>
 </html>
