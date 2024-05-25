@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rishabh Mishra</title>
-    <script src="assets/js/email.js"></script>
+
 
     <!--
     - favicon
@@ -1104,23 +1104,24 @@
     ></script>
     <script>
           function triggerInfoMoreButton() {
-            // Select the button using its class name
-            const button = document.querySelector(".info_more-btn");
+    // Select the button using its class name
+    const button = document.querySelector('.info_more-btn');
 
-            // Check if the button exists
-            if (button) {
-              // Create a new click event
-              const clickEvent = new Event("click");
+    // Check if the button exists
+    if (button) {
+        // Create a new click event
+        const clickEvent = new Event('click');
 
-              // Dispatch the event to trigger the click
-              button.dispatchEvent(clickEvent);
-            } else {
-              console.log("Button not found.");
-            }
-          }
+        // Dispatch the event to trigger the click
+        button.dispatchEvent(clickEvent);
+    } else {
+        console.log('Button not found.');
+    }
+}
 
-          // Call the function to trigger the button
-          triggerInfoMoreButton();
+// The function is now defined but not called automatically.
+// You can call triggerInfoMoreButton() whenever you need to trigger the button.
+
         </script>
   </body>
 </html>
