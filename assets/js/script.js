@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Show the main content
     document.getElementById("content").style.display = "block";
-  }, 3000); // Adjust the delay as needed
+  }, 1500); // Adjust the delay as needed
 });
 
 // sidebar variables
