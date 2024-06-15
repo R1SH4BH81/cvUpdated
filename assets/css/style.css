@@ -131,10 +131,7 @@ input, textarea {
   background: none;
   font: inherit;
 }
-.circular-icon {
 
-  border-radius: 50%;
-}
 .loader {
   display: flex;
   justify-content: center;
