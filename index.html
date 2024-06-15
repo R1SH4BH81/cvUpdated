@@ -41,1021 +41,1055 @@
     <!--
     - #MAIN
   -->
-
-    <main>
-      <!--
+    <div id="loader" class="loader">
+      <div
+        aria-label="Orange and tan hamster running in a metal wheel"
+        role="img"
+        class="wheel-and-hamster"
+      >
+        <div class="wheel"></div>
+        <div class="hamster">
+          <div class="hamster__body">
+            <div class="hamster__head">
+              <div class="hamster__ear"></div>
+              <div class="hamster__eye"></div>
+              <div class="hamster__nose"></div>
+            </div>
+            <div class="hamster__limb hamster__limb--fr"></div>
+            <div class="hamster__limb hamster__limb--fl"></div>
+            <div class="hamster__limb hamster__limb--br"></div>
+            <div class="hamster__limb hamster__limb--bl"></div>
+            <div class="hamster__tail"></div>
+          </div>
+        </div>
+        <div class="spoke"></div>
+      </div>
+    </div>
+    <div id="content" style="display: none">
+      <main>
+        <!--
       - #SIDEBAR
     -->
 
-      <aside class="sidebar" data-sidebar>
-        <div class="sidebar-info">
-          <figure class="avatar-box">
-            <img src="./assets/images/my-avatar.png" width="80" />
-          </figure>
+        <aside class="sidebar" data-sidebar>
+          <div class="sidebar-info">
+            <figure class="avatar-box">
+              <img src="./assets/images/my-avatar.png" width="80" />
+            </figure>
 
-          <div class="info-content">
-            <h1 class="name">Rishabh Mishra</h1>
+            <div class="info-content">
+              <h1 class="name">Rishabh Mishra</h1>
 
-            <a href="Rishabh_cv_updated.pdf"
-              ><p class="title" style="display: inline-block">
-                Resume
-                <img
-                  src="/assets/images/download.png"
-                  class="download"
-                  style="display: inline-block; vertical-align: middle"
-                /></p
-            ></a>
+              <a href="Rishabh_cv_updated.pdf"
+                ><p class="title" style="display: inline-block">
+                  Resume
+                  <img
+                    src="/assets/images/download.png"
+                    class="download"
+                    style="display: inline-block; vertical-align: middle"
+                  /></p
+              ></a>
+            </div>
+
+            <button class="info_more-btn" data-sidebar-btn>
+              <span>Show Contacts</span>
+
+              <ion-icon name="chevron-down"></ion-icon>
+            </button>
           </div>
 
-          <button class="info_more-btn" data-sidebar-btn>
-            <span>Show Contacts</span>
+          <div class="sidebar-info_more">
+            <div class="separator"></div>
 
-            <ion-icon name="chevron-down"></ion-icon>
-          </button>
-        </div>
+            <ul class="contacts-list">
+              <li class="contact-item">
+                <div class="icon-box">
+                  <ion-icon name="mail-outline"></ion-icon>
+                </div>
 
-        <div class="sidebar-info_more">
-          <div class="separator"></div>
+                <div class="contact-info">
+                  <p class="contact-title">Email</p>
 
-          <ul class="contacts-list">
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="mail-outline"></ion-icon>
-              </div>
+                  <a
+                    href="mailto:rishabhmishra.81e@gmail.com"
+                    class="contact-link"
+                    >rishabhmishra.81e@gmail.com</a
+                  >
+                </div>
+              </li>
 
-              <div class="contact-info">
-                <p class="contact-title">Email</p>
+              <li class="contact-item">
+                <div class="icon-box">
+                  <ion-icon name="phone-portrait-outline"></ion-icon>
+                </div>
 
+                <div class="contact-info">
+                  <p class="contact-title">Phone</p>
+
+                  <a href="tel:+12133522795" class="contact-link"
+                    >+91-9608333415</a
+                  >
+                </div>
+              </li>
+
+              <li class="contact-item">
+                <div class="icon-box">
+                  <ion-icon name="calendar-outline"></ion-icon>
+                </div>
+
+                <div class="contact-info">
+                  <p class="contact-title">Birthday</p>
+
+                  <time datetime="1982-06-23">Jan 08, 2004</time>
+                </div>
+              </li>
+
+              <li class="contact-item">
+                <div class="icon-box">
+                  <ion-icon name="location-outline"></ion-icon>
+                </div>
+
+                <div class="contact-info">
+                  <p class="contact-title">Location</p>
+
+                  <address>Ward No. 15 Araria , Bihar - 846004</address>
+                </div>
+              </li>
+            </ul>
+
+            <div class="separator"></div>
+
+            <ul class="social-list">
+              <li class="social-item">
                 <a
-                  href="mailto:rishabhmishra.81e@gmail.com"
-                  class="contact-link"
-                  >rishabhmishra.81e@gmail.com</a
+                  href="https://www.linkedin.com/in/r1shabh81/"
+                  class="social-link"
                 >
-              </div>
-            </li>
-
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="phone-portrait-outline"></ion-icon>
-              </div>
-
-              <div class="contact-info">
-                <p class="contact-title">Phone</p>
-
-                <a href="tel:+12133522795" class="contact-link"
-                  >+91-9608333415</a
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+              <li class="social-item">
+                <a href="https://github.com/R1SH4BH81" class="social-link">
+                  <ion-icon name="logo-github"></ion-icon>
+                </a>
+              </li>
+              <li class="social-item">
+                <a href="https://eightbit.netlify.app" class="social-link">
+                  <i class="fas fa-link link-icon" title="Blog Page"></i>
+                </a>
+              </li>
+              <li class="social-item">
+                <a href="https://codepen.io/rishabhmishra" class="social-link">
+                  <ion-icon name="logo-codepen"></ion-icon>
+                </a>
+              </li>
+              <li class="social-item">
+                <a
+                  href="https://www.instagram.com/eighty_one___"
+                  class="social-link"
                 >
-              </div>
-            </li>
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+              <li class="social-item">
+                <a href="https://x.com/Rishabh67896796" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </aside>
 
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="calendar-outline"></ion-icon>
-              </div>
-
-              <div class="contact-info">
-                <p class="contact-title">Birthday</p>
-
-                <time datetime="1982-06-23">Jan 08, 2004</time>
-              </div>
-            </li>
-
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="location-outline"></ion-icon>
-              </div>
-
-              <div class="contact-info">
-                <p class="contact-title">Location</p>
-
-                <address>Ward No. 15 Araria , Bihar - 846004</address>
-              </div>
-            </li>
-          </ul>
-
-          <div class="separator"></div>
-
-          <ul class="social-list">
-            <li class="social-item">
-              <a
-                href="https://www.linkedin.com/in/r1shabh81/"
-                class="social-link"
-              >
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-            </li>
-            <li class="social-item">
-              <a href="https://github.com/R1SH4BH81" class="social-link">
-                <ion-icon name="logo-github"></ion-icon>
-              </a>
-            </li>
-            <li class="social-item">
-              <a href="https://eightbit.netlify.app" class="social-link">
-                <i class="fas fa-link link-icon" title="Blog Page"></i>
-              </a>
-            </li>
-            <li class="social-item">
-              <a href="https://codepen.io/rishabhmishra" class="social-link">
-                <ion-icon name="logo-codepen"></ion-icon>
-              </a>
-            </li>
-            <li class="social-item">
-              <a
-                href="https://www.instagram.com/eighty_one___"
-                class="social-link"
-              >
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-            </li>
-            <li class="social-item">
-              <a href="https://x.com/Rishabh67896796" class="social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </aside>
-
-      <!--
+        <!--
       - #main-content
     -->
 
-      <div class="main-content">
-        <!--
+        <div class="main-content">
+          <!--
         - #NAVBAR
       -->
 
-        <nav class="navbar">
-          <ul class="navbar-list">
-            <li class="navbar-item">
-              <button class="navbar-link active" data-nav-link>About</button>
-            </li>
+          <nav class="navbar">
+            <ul class="navbar-list">
+              <li class="navbar-item">
+                <button class="navbar-link active" data-nav-link>About</button>
+              </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Resume</button>
-            </li>
+              <li class="navbar-item">
+                <button class="navbar-link" data-nav-link>Resume</button>
+              </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Portfolio</button>
-            </li>
+              <li class="navbar-item">
+                <button class="navbar-link" data-nav-link>Portfolio</button>
+              </li>
 
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link>Blog</button>
-            </li>
-          </ul>
-        </nav>
+              <li class="navbar-item">
+                <button class="navbar-link" data-nav-link>Blog</button>
+              </li>
+            </ul>
+          </nav>
 
-        <!--
+          <!--
         - #ABOUT
       -->
 
-        <article class="about active" data-page="about">
-          <header>
-            <h2 class="h2 article-title">About me</h2>
-          </header>
+          <article class="about active" data-page="about">
+            <header>
+              <h2 class="h2 article-title">About me</h2>
+            </header>
 
-          <section class="about-text">
-            <p>
-              Greetings,
-              <br />
+            <section class="about-text">
+              <p>
+                Greetings,
+                <br />
 
-              I am Rishabh Mishra, presently enrolled in the Bachelor of
-              Technology program in Computer Science at
-              <strong>Amity University, Uttar Pradesh.</strong> Currently, I am
-              in my <strong>seventh semester</strong> of studies. Driven by a
-              fervent enthusiasm for innovation and technology, I am thoroughly
-              immersed in the realms of programming and design.
-            </p>
-          </section>
+                I am Rishabh Mishra, presently enrolled in the Bachelor of
+                Technology program in Computer Science at
+                <strong>Amity University, Uttar Pradesh.</strong> Currently, I
+                am in my <strong>seventh semester</strong> of studies. Driven by
+                a fervent enthusiasm for innovation and technology, I am
+                thoroughly immersed in the realms of programming and design.
+              </p>
+            </section>
 
-          <!--
+            <!--
           - service
         -->
 
-          <section class="service">
-            <h3 class="h3 service-title">Experienced In</h3>
+            <section class="service">
+              <h3 class="h3 service-title">Experienced In</h3>
 
-            <ul class="service-list">
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img
-                    src="./assets/images/web-design.png
+              <ul class="service-list">
+                <li class="service-item">
+                  <div class="service-icon-box">
+                    <img
+                      src="./assets/images/web-design.png
                 "
-                    width="40"
-                  />
-                </div>
+                      width="40"
+                    />
+                  </div>
 
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Web design</h4>
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Web design</h4>
 
-                  <p class="service-item-text">
-                    The most modern and high-quality design made at a
-                    professional level.
-                  </p>
-                </div>
-              </li>
+                    <p class="service-item-text">
+                      The most modern and high-quality design made at a
+                      professional level.
+                    </p>
+                  </div>
+                </li>
 
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img src="./assets/images/mobile.png" width="40" />
-                </div>
+                <li class="service-item">
+                  <div class="service-icon-box">
+                    <img src="./assets/images/mobile.png" width="40" />
+                  </div>
 
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Web development</h4>
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Web development</h4>
 
-                  <p class="service-item-text">
-                    High-quality development of sites at the professional level.
-                  </p>
-                </div>
-              </li>
+                    <p class="service-item-text">
+                      High-quality development of sites at the professional
+                      level.
+                    </p>
+                  </div>
+                </li>
 
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img src="./assets/images/programing.png" width="40" />
-                </div>
+                <li class="service-item">
+                  <div class="service-icon-box">
+                    <img src="./assets/images/programing.png" width="40" />
+                  </div>
 
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Software Development</h4>
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">Software Development</h4>
 
-                  <p class="service-item-text">
-                    Professional development of Softwares
-                  </p>
-                </div>
-              </li>
+                    <p class="service-item-text">
+                      Professional development of Softwares
+                    </p>
+                  </div>
+                </li>
 
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <img src="./assets/images/cloud-database.png" width="40" />
-                </div>
+                <li class="service-item">
+                  <div class="service-icon-box">
+                    <img src="./assets/images/cloud-database.png" width="40" />
+                  </div>
 
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">FireBase DB</h4>
+                  <div class="service-content-box">
+                    <h4 class="h4 service-item-title">FireBase DB</h4>
 
-                  <p class="service-item-text">
-                    I have experience performing multiple cloud storage
-                    functionalities using Firebase
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </section>
+                    <p class="service-item-text">
+                      I have experience performing multiple cloud storage
+                      functionalities using Firebase
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </section>
 
-          <!--
+            <!--
           - testimonials
         -->
 
-          <section class="testimonials">
-            <h3 class="h3 testimonials-title">Testimonials</h3>
+            <section class="testimonials">
+              <h3 class="h3 testimonials-title">Testimonials</h3>
 
-            <ul class="testimonials-list has-scrollbar">
-              <li class="testimonials-item">
-                <div class="content-card" data-testimonials-item>
-                  <figure class="testimonials-avatar-box">
-                    <img src="" width="0" data-testimonials-avatar />
-                  </figure>
+              <ul class="testimonials-list has-scrollbar">
+                <li class="testimonials-item">
+                  <div class="content-card" data-testimonials-item>
+                    <figure class="testimonials-avatar-box">
+                      <img src="" width="0" data-testimonials-avatar />
+                    </figure>
 
-                  <h4 class="h4" data-testimonials-title>Narmesh Nigam</h4>
-                  <h5 class="h5" style="margin-bottom: 10px">
-                    CEO & Founder @JKC Sotwares pvt ltd
-                  </h5>
+                    <h4 class="h4" data-testimonials-title>Narmesh Nigam</h4>
+                    <h5 class="h5" style="margin-bottom: 10px">
+                      CEO & Founder @JKC Sotwares pvt ltd
+                    </h5>
 
-                  <div class="testimonials-text" data-testimonials-text>
-                    <p>
-                      Rishabh possesses exceptional coding skills and
-                      outstanding team management abilities. In addition, they
-                      demonstrate a robust set of soft skills, including
-                      effective communication, problem-solving, and
-                      adaptability, making them a well-rounded and valuable
-                      asset to any team.
-                    </p>
+                    <div class="testimonials-text" data-testimonials-text>
+                      <p>
+                        Rishabh possesses exceptional coding skills and
+                        outstanding team management abilities. In addition, they
+                        demonstrate a robust set of soft skills, including
+                        effective communication, problem-solving, and
+                        adaptability, making them a well-rounded and valuable
+                        asset to any team.
+                      </p>
+                    </div>
                   </div>
-                </div>
-              </li>
+                </li>
 
-              <li class="testimonials-item">
-                <div class="content-card" data-testimonials-item>
-                  <figure class="testimonials-avatar-box">
-                    <img src="" width="0" data-testimonials-avatar />
-                  </figure>
+                <li class="testimonials-item">
+                  <div class="content-card" data-testimonials-item>
+                    <figure class="testimonials-avatar-box">
+                      <img src="" width="0" data-testimonials-avatar />
+                    </figure>
 
-                  <h4 class="h4" data-testimonials-title>Navin Kumar Jha</h4>
-                  <h5
-                    class="h5"
-                    style="margin-bottom: 10px"
-                    data-testimonials-title
-                  >
-                    CEO & Managing Director @Cronsum Infotech Pvt Ltd
-                  </h5>
+                    <h4 class="h4" data-testimonials-title>Navin Kumar Jha</h4>
+                    <h5
+                      class="h5"
+                      style="margin-bottom: 10px"
+                      data-testimonials-title
+                    >
+                      CEO & Managing Director @Cronsum Infotech Pvt Ltd
+                    </h5>
 
-                  <div class="testimonials-text" data-testimonials-text>
-                    <p>
-                      Rishabh has achieved industry-level skills and excels in
-                      time management.He keep a deep respect for deadlines and
-                      consistently demonstrate punctuality and efficiency in
-                      their work.
-                    </p>
+                    <div class="testimonials-text" data-testimonials-text>
+                      <p>
+                        Rishabh has achieved industry-level skills and excels in
+                        time management.He keep a deep respect for deadlines and
+                        consistently demonstrate punctuality and efficiency in
+                        their work.
+                      </p>
+                    </div>
                   </div>
-                </div>
-              </li>
-              <li class="testimonials-item">
-                <div class="content-card" data-testimonials-item>
-                  <figure class="testimonials-avatar-box">
-                    <img src="" width="0" data-testimonials-avatar />
-                  </figure>
+                </li>
+                <li class="testimonials-item">
+                  <div class="content-card" data-testimonials-item>
+                    <figure class="testimonials-avatar-box">
+                      <img src="" width="0" data-testimonials-avatar />
+                    </figure>
 
-                  <h4 class="h4" data-testimonials-title>Vaibhav Srivastava</h4>
-                  <h5 class="h5" style="margin-bottom: 10px">
-                    FullStack Developer @WebWise Media
-                  </h5>
+                    <h4 class="h4" data-testimonials-title>
+                      Vaibhav Srivastava
+                    </h4>
+                    <h5 class="h5" style="margin-bottom: 10px">
+                      FullStack Developer @WebWise Media
+                    </h5>
 
-                  <div class="testimonials-text" data-testimonials-text>
-                    <p>
-                      Rishabh excels in managing tasks efficiently and
-                      demonstrates a strong respect for time. They consistently
-                      complete work in a highly structured and organized manner.
-                    </p>
+                    <div class="testimonials-text" data-testimonials-text>
+                      <p>
+                        Rishabh excels in managing tasks efficiently and
+                        demonstrates a strong respect for time. They
+                        consistently complete work in a highly structured and
+                        organized manner.
+                      </p>
+                    </div>
                   </div>
-                </div>
-              </li>
-              <li class="testimonials-item">
-                <div class="content-card" data-testimonials-item>
-                  <figure class="testimonials-avatar-box">
-                    <img src="" width="0" data-testimonials-avatar />
-                  </figure>
+                </li>
+                <li class="testimonials-item">
+                  <div class="content-card" data-testimonials-item>
+                    <figure class="testimonials-avatar-box">
+                      <img src="" width="0" data-testimonials-avatar />
+                    </figure>
 
-                  <h4 class="h4" data-testimonials-title>Sameer Shrivastava</h4>
-                  <h5 class="h5" style="margin-bottom: 10px">
-                    UI/UX Head @WebWise Media
-                  </h5>
+                    <h4 class="h4" data-testimonials-title>
+                      Sameer Shrivastava
+                    </h4>
+                    <h5 class="h5" style="margin-bottom: 10px">
+                      UI/UX Head @WebWise Media
+                    </h5>
 
-                  <div class="testimonials-text" data-testimonials-text>
-                    <p>
-                      Rishabh has a deep understanding of user experience (UX)
-                      and is well-versed in a variety of user interface (UI)
-                      methods. His creativity shines through in their innovative
-                      design solutions.
-                    </p>
+                    <div class="testimonials-text" data-testimonials-text>
+                      <p>
+                        Rishabh has a deep understanding of user experience (UX)
+                        and is well-versed in a variety of user interface (UI)
+                        methods. His creativity shines through in their
+                        innovative design solutions.
+                      </p>
+                    </div>
                   </div>
-                </div>
-              </li>
+                </li>
 
-              <li class="testimonials-item">
-                <div class="content-card" data-testimonials-item>
-                  <figure class="testimonials-avatar-box">
-                    <img src="" width="0" data-testimonials-avatar />
-                  </figure>
+                <li class="testimonials-item">
+                  <div class="content-card" data-testimonials-item>
+                    <figure class="testimonials-avatar-box">
+                      <img src="" width="0" data-testimonials-avatar />
+                    </figure>
 
-                  <h4 class="h4" data-testimonials-title>Gitansh Aggarwal</h4>
-                  <h5
-                    class="h5"
-                    style="margin-bottom: 10px"
-                    data-testimonials-title
-                  >
-                    Colleague @JKC Software Pvt Ltd
-                  </h5>
+                    <h4 class="h4" data-testimonials-title>Gitansh Aggarwal</h4>
+                    <h5
+                      class="h5"
+                      style="margin-bottom: 10px"
+                      data-testimonials-title
+                    >
+                      Colleague @JKC Software Pvt Ltd
+                    </h5>
 
-                  <div class="testimonials-text" data-testimonials-text>
-                    <p>
-                      Rishabh is an exceptional teammate, known for his
-                      collaborative spirit and strong interpersonal skills.He
-                      shows outstanding coding abilities and excel in
-                      problem-solving, consistently delivering high-quality
-                      solutions.
-                    </p>
+                    <div class="testimonials-text" data-testimonials-text>
+                      <p>
+                        Rishabh is an exceptional teammate, known for his
+                        collaborative spirit and strong interpersonal skills.He
+                        shows outstanding coding abilities and excel in
+                        problem-solving, consistently delivering high-quality
+                        solutions.
+                      </p>
+                    </div>
                   </div>
-                </div>
-              </li>
-            </ul>
-          </section>
+                </li>
+              </ul>
+            </section>
 
-          <!--
+            <!--
           - testimonials modal
         -->
 
-          <div class="modal-container" data-modal-container>
-            <div class="overlay" data-overlay></div>
+            <div class="modal-container" data-modal-container>
+              <div class="overlay" data-overlay></div>
 
-            <section class="testimonials-modal">
-              <button class="modal-close-btn" data-modal-close-btn>
-                <ion-icon name="close-outline"></ion-icon>
-              </button>
+              <section class="testimonials-modal">
+                <button class="modal-close-btn" data-modal-close-btn>
+                  <ion-icon name="close-outline"></ion-icon>
+                </button>
 
-              <div class="modal-img-wrapper">
-                <figure class="modal-avatar-box">
-                  <img src="" width="80" data-modal-img />
-                </figure>
+                <div class="modal-img-wrapper">
+                  <figure class="modal-avatar-box">
+                    <img src="" width="80" data-modal-img />
+                  </figure>
 
-                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+                  <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+                </div>
+              </section>
+            </div>
+          </article>
+
+          <article class="resume" data-page="resume">
+            <header>
+              <h2 class="h2 article-title">Resume</h2>
+            </header>
+
+            <section class="timeline">
+              <div class="title-wrapper">
+                <div class="icon-box">
+                  <ion-icon name="book-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3">Education</h3>
               </div>
+
+              <ol class="timeline-list">
+                <li class="timeline-item">
+                  <h4 class="h4 timeline-item-title">
+                    Dav Public School, DBG , Bihar - 846004
+                  </h4>
+
+                  <span>2015 - 2019</span>
+
+                  <p class="timeline-text">
+                    I completed my 10th grade from <b>DAV Public School</b> with
+                    a percentage of <b>82.2%</b>. I excelled particularly in
+                    Science, where I consistently demonstrated strong
+                    understanding and performance.
+                  </p>
+                </li>
+
+                <li class="timeline-item">
+                  <h4 class="h4 timeline-item-title">
+                    CM Science College , DBG , Bihar - 846004
+                  </h4>
+
+                  <span>2019 - 2021</span>
+
+                  <p class="timeline-text">
+                    I completed my 12th grade from the <b>BSEB</b> board with a
+                    percentage of <b>68.8%</b>. I achieved distinction in
+                    English and Physics.
+                  </p>
+                </li>
+
+                <li class="timeline-item">
+                  <h4 class="h4 timeline-item-title">
+                    Amity University Gautum Budh Nagar, UP - 201310
+                  </h4>
+
+                  <span>2021 - 2025</span>
+
+                  <p class="timeline-text">
+                    I am currently in my seventh semester, pursuing a B.Tech
+                    with a CGPA of <b>7.43</b>.
+                  </p>
+                </li>
+              </ol>
             </section>
-          </div>
-        </article>
 
-        <article class="resume" data-page="resume">
-          <header>
-            <h2 class="h2 article-title">Resume</h2>
-          </header>
+            <section class="timeline">
+              <div class="title-wrapper">
+                <div class="icon-box">
+                  <ion-icon name="book-outline"></ion-icon>
+                </div>
 
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
+                <h3 class="h3">Experience</h3>
               </div>
 
-              <h3 class="h3">Education</h3>
-            </div>
+              <ol class="timeline-list">
+                <li class="timeline-item">
+                  <h4 class="h4 timeline-item-title">IDMS development</h4>
 
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Dav Public School, DBG , Bihar - 846004
-                </h4>
+                  <span>May 2024 - Ongoing</span>
 
-                <span>2015 - 2019</span>
+                  <p class="timeline-text">
+                    • Developed a responsive and intuitive UI, ensuring easy
+                    navigation and efficient management of inventory.<br />
+                    • Implemented real-time updates and monitoring of stock
+                    levels, minimizing stockouts and overstock situations.
+                  </p>
+                </li>
+                <li class="timeline-item">
+                  <h4 class="h4 timeline-item-title">
+                    Crypto Exchange WebApp Wallet Development
+                  </h4>
 
-                <p class="timeline-text">
-                  I completed my 10th grade from <b>DAV Public School</b> with a
-                  percentage of <b>82.2%</b>. I excelled particularly in
-                  Science, where I consistently demonstrated strong
-                  understanding and performance.
-                </p>
-              </li>
+                  <span>May 2024 - Ongoing</span>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  CM Science College , DBG , Bihar - 846004
-                </h4>
+                  <p class="timeline-text">
+                    • Successfully developed a comprehensive cryptocurrency
+                    exchange wallet leveraging modern web technologies. <br />
+                    • Utilized advanced encryption techniques for data at rest
+                    and in transit to safeguard sensitive user information and
+                    private keys."
+                  </p>
+                </li>
 
-                <span>2019 - 2021</span>
+                <li class="timeline-item">
+                  <h4 class="h4 timeline-item-title">Online Compiler</h4>
 
-                <p class="timeline-text">
-                  I completed my 12th grade from the <b>BSEB</b> board with a
-                  percentage of <b>68.8%</b>. I achieved distinction in English
-                  and Physics.
-                </p>
-              </li>
+                  <span>May 2023 - Sept 2023</span>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Amity University Gautum Budh Nagar, UP - 201310
-                </h4>
+                  <p class="timeline-text">
+                    Developed an interactive online code editor, named
+                    "<b>8BIT</b>," allowing users to write, edit, and run code
+                    snippets in Python, Java, C++, and C languages directly in
+                    the browser.
+                  </p>
+                </li>
 
-                <span>2021 - 2025</span>
+                <li class="timeline-item">
+                  <h4 class="h4 timeline-item-title">
+                    AmiBot - AmiZone ChatBot
+                  </h4>
 
-                <p class="timeline-text">
-                  I am currently in my seventh semester, pursuing a B.Tech with
-                  a CGPA of <b>7.43</b>.
-                </p>
-              </li>
-            </ol>
-          </section>
+                  <span>March 2023 - May 2023</span>
 
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"></ion-icon>
-              </div>
+                  <p class="timeline-text">
+                    • Developed a Python script utilizing the requests and bs4
+                    libraries to interact with the AMIZONE website.<br />
+                    • Implemented various methods to perform essential actions,
+                    including logging in, accessing attendance data, exam
+                    schedules, faculty information, and result retrieval.
+                  </p>
+                </li>
+              </ol>
+            </section>
 
-              <h3 class="h3">Experience</h3>
-            </div>
+            <section class="skill">
+              <h3 class="h3 skills-title">My skills</h3>
 
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">IDMS development</h4>
+              <ul class="skills-list content-card">
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h5 class="h5">Web design</h5>
+                    <data value="80">80%</data>
+                  </div>
 
-                <span>May 2024 - Ongoing</span>
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 80%"></div>
+                  </div>
+                </li>
 
-                <p class="timeline-text">
-                  • Developed a responsive and intuitive UI, ensuring easy
-                  navigation and efficient management of inventory.<br />
-                  • Implemented real-time updates and monitoring of stock
-                  levels, minimizing stockouts and overstock situations.
-                </p>
-              </li>
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Crypto Exchange WebApp Wallet Development
-                </h4>
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h5 class="h5">Web Dev</h5>
+                    <data value="70">70%</data>
+                  </div>
 
-                <span>May 2024 - Ongoing</span>
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 70%"></div>
+                  </div>
+                </li>
 
-                <p class="timeline-text">
-                  • Successfully developed a comprehensive cryptocurrency
-                  exchange wallet leveraging modern web technologies. <br />
-                  • Utilized advanced encryption techniques for data at rest and
-                  in transit to safeguard sensitive user information and private
-                  keys."
-                </p>
-              </li>
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h5 class="h5">Python</h5>
+                    <data value="90">90%</data>
+                  </div>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Online Compiler</h4>
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 90%"></div>
+                  </div>
+                </li>
 
-                <span>May 2023 - Sept 2023</span>
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h5 class="h5">C++</h5>
+                    <data value="50">50%</data>
+                  </div>
 
-                <p class="timeline-text">
-                  Developed an interactive online code editor, named
-                  "<b>8BIT</b>," allowing users to write, edit, and run code
-                  snippets in Python, Java, C++, and C languages directly in the
-                  browser.
-                </p>
-              </li>
+                  <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 50%"></div>
+                  </div>
+                </li>
+              </ul>
+            </section>
+          </article>
 
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">AmiBot - AmiZone ChatBot</h4>
-
-                <span>March 2023 - May 2023</span>
-
-                <p class="timeline-text">
-                  • Developed a Python script utilizing the requests and bs4
-                  libraries to interact with the AMIZONE website.<br />
-                  • Implemented various methods to perform essential actions,
-                  including logging in, accessing attendance data, exam
-                  schedules, faculty information, and result retrieval.
-                </p>
-              </li>
-            </ol>
-          </section>
-
-          <section class="skill">
-            <h3 class="h3 skills-title">My skills</h3>
-
-            <ul class="skills-list content-card">
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Web design</h5>
-                  <data value="80">80%</data>
-                </div>
-
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 80%"></div>
-                </div>
-              </li>
-
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Web Dev</h5>
-                  <data value="70">70%</data>
-                </div>
-
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 70%"></div>
-                </div>
-              </li>
-
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">Python</h5>
-                  <data value="90">90%</data>
-                </div>
-
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 90%"></div>
-                </div>
-              </li>
-
-              <li class="skills-item">
-                <div class="title-wrapper">
-                  <h5 class="h5">C++</h5>
-                  <data value="50">50%</data>
-                </div>
-
-                <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="width: 50%"></div>
-                </div>
-              </li>
-            </ul>
-          </section>
-        </article>
-
-        <!--
+          <!--
         - #PORTFOLIO
       -->
 
-        <article class="portfolio" data-page="portfolio">
-          <header>
-            <h2 class="h2 article-title">Portfolio</h2>
-          </header>
+          <article class="portfolio" data-page="portfolio">
+            <header>
+              <h2 class="h2 article-title">Portfolio</h2>
+            </header>
 
-          <section class="projects">
-            <div class="filter-select-box">
-              <div data-select></div>
-            </div>
+            <section class="projects">
+              <div class="filter-select-box">
+                <div data-select></div>
+              </div>
 
-            <ul class="project-list">
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web development"
-              >
-                <a>
-                  <figure class="project-img">
-                    <img src="./assets/images/IDMS.jpg" loading="lazy" />
-                  </figure>
+              <ul class="project-list">
+                <li
+                  class="project-item active"
+                  data-filter-item
+                  data-category="web development"
+                >
+                  <a>
+                    <figure class="project-img">
+                      <img src="./assets/images/IDMS.jpg" loading="lazy" />
+                    </figure>
 
-                  <h3 class="project-title">IDMS</h3>
+                    <h3 class="project-title">IDMS</h3>
 
-                  <p class="project-category">Web development</p>
-                </a>
-              </li>
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web development"
-              >
-                <a>
-                  <figure class="project-img">
-                    <img src="./assets/images/crypto.jpg" loading="lazy" />
-                  </figure>
+                    <p class="project-category">Web development</p>
+                  </a>
+                </li>
+                <li
+                  class="project-item active"
+                  data-filter-item
+                  data-category="web development"
+                >
+                  <a>
+                    <figure class="project-img">
+                      <img src="./assets/images/crypto.jpg" loading="lazy" />
+                    </figure>
 
-                  <h3 class="project-title">Crypto Exchange Wallet</h3>
+                    <h3 class="project-title">Crypto Exchange Wallet</h3>
 
-                  <p class="project-category">Web development</p>
-                </a>
-              </li>
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web development"
-              >
-                <a>
-                  <figure class="project-img">
-                    <img src="./assets/images/compiler.png" loading="lazy" />
-                  </figure>
+                    <p class="project-category">Web development</p>
+                  </a>
+                </li>
+                <li
+                  class="project-item active"
+                  data-filter-item
+                  data-category="web development"
+                >
+                  <a>
+                    <figure class="project-img">
+                      <img src="./assets/images/compiler.png" loading="lazy" />
+                    </figure>
 
-                  <h3 class="project-title">8BIT Compiler</h3>
+                    <h3 class="project-title">8BIT Compiler</h3>
 
-                  <p class="project-category">Web development</p>
-                </a>
-              </li>
+                    <p class="project-category">Web development</p>
+                  </a>
+                </li>
 
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web development"
-              >
-                <a href="https://eightbit.netlify.app">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
+                <li
+                  class="project-item active"
+                  data-filter-item
+                  data-category="web development"
+                >
+                  <a href="https://eightbit.netlify.app">
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
 
-                    <img src="/assets/images/blog.jpg" loading="lazy" />
-                  </figure>
+                      <img src="/assets/images/blog.jpg" loading="lazy" />
+                    </figure>
 
-                  <h3 class="project-title">8BIT Blog</h3>
+                    <h3 class="project-title">8BIT Blog</h3>
 
-                  <p class="project-category">Web development</p>
-                </a>
-              </li>
+                    <p class="project-category">Web development</p>
+                  </a>
+                </li>
 
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web design"
-              >
-                <a>
-                  <figure class="project-img">
-                    
+                <li
+                  class="project-item active"
+                  data-filter-item
+                  data-category="web design"
+                >
+                  <a>
+                    <figure class="project-img">
+                      <img src="./assets/images/mage.png" loading="lazy" />
+                    </figure>
 
-                    <img src="./assets/images/mage.png" loading="lazy" />
-                  </figure>
+                    <h3 class="project-title">Mage Game</h3>
 
-                  <h3 class="project-title">Mage Game</h3>
+                    <p class="project-category">
+                      Web Game Collaborative Development
+                    </p>
+                  </a>
+                </li>
 
-                  <p class="project-category">
-                    Web Game Collaborative Development
-                  </p>
-                </a>
-              </li>
+                <li
+                  class="project-item active"
+                  data-filter-item
+                  data-category="applications"
+                >
+                  <a href="https://hypedvelocity.netlify.app/">
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
 
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="applications"
-              >
-                <a href="https://hypedvelocity.netlify.app/">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
+                      <img src="./assets/images/Hype.png" loading="lazy" />
+                    </figure>
 
-                    <img src="./assets/images/Hype.png" loading="lazy" />
-                  </figure>
+                    <h3 class="project-title">Hypd Velocity</h3>
 
-                  <h3 class="project-title">Hypd Velocity</h3>
+                    <p class="project-category">Web development</p>
+                  </a>
+                </li>
 
-                  <p class="project-category">Web development</p>
-                </a>
-              </li>
+                <li
+                  class="project-item active"
+                  data-filter-item
+                  data-category="web design"
+                >
+                  <a href="https://replit.com/@RishabhMishra18/antivirus">
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
 
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web design"
-              >
-                <a href="https://replit.com/@RishabhMishra18/antivirus">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
+                      <img
+                        src="https://cdn.windowsreport.com/wp-content/uploads/2020/04/antivirus-1.jpg"
+                        loading="lazy"
+                      />
+                    </figure>
 
-                    <img
-                      src="https://cdn.windowsreport.com/wp-content/uploads/2020/04/antivirus-1.jpg"
-                      loading="lazy"
-                    />
-                  </figure>
+                    <h3 class="project-title">Anitivirusᵇᵉᵗᵃ</h3>
 
-                  <h3 class="project-title">Anitivirusᵇᵉᵗᵃ</h3>
+                    <p class="project-category">Software Development</p>
+                  </a>
+                </li>
 
-                  <p class="project-category">Software Development</p>
-                </a>
-              </li>
+                <li class="project-item active">
+                  <a href="https://steamredesign.netlify.app/">
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
 
-              <li class="project-item active">
-                <a href="https://steamredesign.netlify.app/">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
+                      <img
+                        src="https://wallpaperaccess.com/full/5075865.png"
+                        loading="lazy"
+                      />
+                    </figure>
 
-                    <img
-                      src="https://wallpaperaccess.com/full/5075865.png"
-                      loading="lazy"
-                    />
-                  </figure>
+                    <h3 class="project-title">Steam Redesign</h3>
 
-                  <h3 class="project-title">Steam Redesign</h3>
+                    <p class="project-category">Website Redesign</p>
+                  </a>
+                </li>
 
-                  <p class="project-category">Website Redesign</p>
-                </a>
-              </li>
+                <li class="project-item active">
+                  <a href="https://sensational-clafoutis-d3d272.netlify.app/">
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
 
-              <li class="project-item active">
-                <a href="https://sensational-clafoutis-d3d272.netlify.app/">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
+                      <img
+                        src="https://brandemia.org/sites/default/files/sites/default/files/icono_netflix_nuevo.jpg"
+                        loading="lazy"
+                      />
+                    </figure>
 
-                    <img
-                      src="https://brandemia.org/sites/default/files/sites/default/files/icono_netflix_nuevo.jpg"
-                      loading="lazy"
-                    />
-                  </figure>
+                    <h3 class="project-title">Netflix Redesign</h3>
 
-                  <h3 class="project-title">Netflix Redesign</h3>
+                    <p class="project-category">Website Redesign</p>
+                  </a>
+                </li>
 
-                  <p class="project-category">Website Redesign</p>
-                </a>
-              </li>
+                <li
+                  class="project-item active"
+                  data-filter-item
+                  data-category="applications"
+                >
+                  <a href="https://bright-frangollo-6f7ecf.netlify.app/">
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
 
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="applications"
-              >
-                <a href="https://bright-frangollo-6f7ecf.netlify.app/">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
+                      <img
+                        src="https://logos-world.net/wp-content/uploads/2020/09/Google-Emblem.jpg"
+                        loading="lazy"
+                      />
+                    </figure>
 
-                    <img
-                      src="https://logos-world.net/wp-content/uploads/2020/09/Google-Emblem.jpg"
-                      loading="lazy"
-                    />
-                  </figure>
+                    <h3 class="project-title">Google Redesign</h3>
 
-                  <h3 class="project-title">Google Redesign</h3>
+                    <p class="project-category">Website Redesign</p>
+                  </a>
+                </li>
 
-                  <p class="project-category">Website Redesign</p>
-                </a>
-              </li>
+                <li
+                  class="project-item active"
+                  data-filter-item
+                  data-category="web development"
+                >
+                  <a href="https://cerulean-peony-453e63.netlify.app/">
+                    <figure class="project-img">
+                      <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                      </div>
 
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web development"
-              >
-                <a href="https://cerulean-peony-453e63.netlify.app/">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
+                      <img
+                        src="https://beebom.com/wp-content/uploads/2022/04/Sign-up-Screen-.jpg?w=479"
+                        loading="lazy"
+                      />
+                    </figure>
 
-                    <img
-                      src="https://beebom.com/wp-content/uploads/2022/04/Sign-up-Screen-.jpg?w=479"
-                      loading="lazy"
-                    />
-                  </figure>
+                    <h3 class="project-title">Roblox SignUp Page Redesign</h3>
 
-                  <h3 class="project-title">Roblox SignUp Page Redesign</h3>
+                    <p class="project-category">Web development</p>
+                  </a>
+                </li>
+              </ul>
+            </section>
+          </article>
 
-                  <p class="project-category">Web development</p>
-                </a>
-              </li>
-            </ul>
-          </section>
-        </article>
-
-        <!--
+          <!--
         - #BLOG
       -->
 
-        <article class="blog" data-page="blog">
-          <header>
-            <h2 class="h2 article-title">Blog</h2>
-          </header>
+          <article class="blog" data-page="blog">
+            <header>
+              <h2 class="h2 article-title">Blog</h2>
+            </header>
 
-          <section class="blog-posts">
-            <ul class="blog-posts-list">
-              <li class="blog-post-item">
-                <a href="https://eightbit.netlify.app/blogs/epicgames">
-                  <figure class="blog-banner-box">
-                    <img
-                      src="https://eightbit.netlify.app/assets/images/epicgame.jpg"
-                      loading="lazy"
-                    />
-                  </figure>
+            <section class="blog-posts">
+              <ul class="blog-posts-list">
+                <li class="blog-post-item">
+                  <a href="https://eightbit.netlify.app/blogs/epicgames">
+                    <figure class="blog-banner-box">
+                      <img
+                        src="https://eightbit.netlify.app/assets/images/epicgame.jpg"
+                        loading="lazy"
+                      />
+                    </figure>
 
-                  <div class="blog-content">
-                    <div class="blog-meta">
-                      <span class="dot"></span>
+                    <div class="blog-content">
+                      <div class="blog-meta">
+                        <span class="dot"></span>
 
-                      <time datetime="2022-02-23">21-05-24</time>
+                        <time datetime="2022-02-23">21-05-24</time>
+                      </div>
+
+                      <h3 class="h3 blog-item-title">
+                        Unreal Engine 5 - The Future of Gaming
+                      </h3>
+
+                      <p class="blog-text">
+                        Epic Games revolutionized the gaming industry with the
+                        introduction of the Unreal Engine.
+                      </p>
                     </div>
+                  </a>
+                </li>
 
-                    <h3 class="h3 blog-item-title">
-                      Unreal Engine 5 - The Future of Gaming
-                    </h3>
+                <li class="blog-post-item">
+                  <a href="https://eightbit.netlify.app/blogs/apple">
+                    <figure class="blog-banner-box">
+                      <img
+                        src="https://eightbit.netlify.app/assets/images/appleLogo.jpeg"
+                        loading="lazy"
+                      />
+                    </figure>
 
-                    <p class="blog-text">
-                      Epic Games revolutionized the gaming industry with the
-                      introduction of the Unreal Engine.
-                    </p>
-                  </div>
-                </a>
-              </li>
+                    <div class="blog-content">
+                      <div class="blog-meta">
+                        <span class="dot"></span>
 
-              <li class="blog-post-item">
-                <a href="https://eightbit.netlify.app/blogs/apple">
-                  <figure class="blog-banner-box">
-                    <img
-                      src="https://eightbit.netlify.app/assets/images/appleLogo.jpeg"
-                      loading="lazy"
-                    />
-                  </figure>
+                        <time datetime="2022-02-23">13-04-24</time>
+                      </div>
 
-                  <div class="blog-content">
-                    <div class="blog-meta">
-                      <span class="dot"></span>
+                      <h3 class="h3 blog-item-title">
+                        Apple Warns iPhone Users
+                      </h3>
 
-                      <time datetime="2022-02-23">13-04-24</time>
+                      <p class="blog-text">
+                        Apple has been vigilant in notifying its iPhone users
+                        about a specific type of threat
+                      </p>
                     </div>
+                  </a>
+                </li>
 
-                    <h3 class="h3 blog-item-title">Apple Warns iPhone Users</h3>
+                <li class="blog-post-item">
+                  <a href="https://8bitblog.netlify.app/blogs/mediatek">
+                    <figure class="blog-banner-box">
+                      <img
+                        src="https://8bitblog.netlify.app/assets/images/nvidiaLogo.jpeg"
+                        loading="lazy"
+                      />
+                    </figure>
 
-                    <p class="blog-text">
-                      Apple has been vigilant in notifying its iPhone users
-                      about a specific type of threat
-                    </p>
-                  </div>
-                </a>
-              </li>
+                    <div class="blog-content">
+                      <div class="blog-meta">
+                        <span class="dot"></span>
 
-              <li class="blog-post-item">
-                <a href="https://8bitblog.netlify.app/blogs/mediatek">
-                  <figure class="blog-banner-box">
-                    <img
-                      src="https://8bitblog.netlify.app/assets/images/nvidiaLogo.jpeg"
-                      loading="lazy"
-                    />
-                  </figure>
+                        <time datetime="2022-02-23">26-03-24</time>
+                      </div>
 
-                  <div class="blog-content">
-                    <div class="blog-meta">
-                      <span class="dot"></span>
+                      <h3 class="h3 blog-item-title">
+                        The Power Duo: NVIDIA and MediaTek
+                      </h3>
 
-                      <time datetime="2022-02-23">26-03-24</time>
+                      <p class="blog-text">
+                        In the fast-paced world of mobile technology, innovation
+                        is the driving force.
+                      </p>
                     </div>
+                  </a>
+                </li>
 
-                    <h3 class="h3 blog-item-title">
-                      The Power Duo: NVIDIA and MediaTek
-                    </h3>
+                <li class="blog-post-item">
+                  <a href="https://8bitblog.netlify.app/blogs/aichips">
+                    <figure class="blog-banner-box">
+                      <img
+                        src="https://eightbit.netlify.app/assets/images/nvidiaLive.gif"
+                        loading="lazy"
+                      />
+                    </figure>
 
-                    <p class="blog-text">
-                      In the fast-paced world of mobile technology, innovation
-                      is the driving force.
-                    </p>
-                  </div>
-                </a>
-              </li>
+                    <div class="blog-content">
+                      <div class="blog-meta">
+                        <span class="dot"></span>
 
-              <li class="blog-post-item">
-                <a href="https://8bitblog.netlify.app/blogs/aichips">
-                  <figure class="blog-banner-box">
-                    <img
-                      src="https://eightbit.netlify.app/assets/images/nvidiaLive.gif"
-                      loading="lazy"
-                    />
-                  </figure>
+                        <time datetime="2022-02-23">26-03-24</time>
+                      </div>
 
-                  <div class="blog-content">
-                    <div class="blog-meta">
-                      <span class="dot"></span>
+                      <h3 class="h3 blog-item-title">
+                        Nvidia Unveils Next-Generation AI Chips
+                      </h3>
 
-                      <time datetime="2022-02-23">26-03-24</time>
+                      <p class="blog-text">
+                        Nvidia introduces its groundbreaking AI chip, known as
+                        the Blackwell, heralded as the pinnacle of AI
+                        technology.
+                      </p>
                     </div>
+                  </a>
+                </li>
 
-                    <h3 class="h3 blog-item-title">
-                      Nvidia Unveils Next-Generation AI Chips
-                    </h3>
+                <li class="blog-post-item">
+                  <a href="https://8bitblog.netlify.app/blogs/matrix">
+                    <figure class="blog-banner-box">
+                      <img
+                        src="https://8bitblog.netlify.app/assets/images/matrix.jpg"
+                        loading="lazy"
+                      />
+                    </figure>
 
-                    <p class="blog-text">
-                      Nvidia introduces its groundbreaking AI chip, known as the
-                      Blackwell, heralded as the pinnacle of AI technology.
-                    </p>
-                  </div>
-                </a>
-              </li>
+                    <div class="blog-content">
+                      <div class="blog-meta">
+                        <span class="dot"></span>
 
-              <li class="blog-post-item">
-                <a href="https://8bitblog.netlify.app/blogs/matrix">
-                  <figure class="blog-banner-box">
-                    <img
-                      src="https://8bitblog.netlify.app/assets/images/matrix.jpg"
-                      loading="lazy"
-                    />
-                  </figure>
+                        <time datetime="2022-02-23">05-08-23</time>
+                      </div>
 
-                  <div class="blog-content">
-                    <div class="blog-meta">
-                      <span class="dot"></span>
+                      <h3 class="h3 blog-item-title">UNRAVELING THE MATRIX</h3>
 
-                      <time datetime="2022-02-23">05-08-23</time>
+                      <p class="blog-text">
+                        The concept of the matrix has captivated our
+                        imaginations for decades, thanks to its portrayal in
+                        science fiction movies and literature.
+                      </p>
                     </div>
+                  </a>
+                </li>
 
-                    <h3 class="h3 blog-item-title">UNRAVELING THE MATRIX</h3>
+                <li class="blog-post-item">
+                  <a href="https://8bitblog.netlify.app/blogs/englishascoding">
+                    <figure class="blog-banner-box">
+                      <img
+                        src="https://8bitblog.netlify.app/assets/images/nvidiaLive.gif"
+                        loading="lazy"
+                      />
+                    </figure>
 
-                    <p class="blog-text">
-                      The concept of the matrix has captivated our imaginations
-                      for decades, thanks to its portrayal in science fiction
-                      movies and literature.
-                    </p>
-                  </div>
-                </a>
-              </li>
+                    <div class="blog-content">
+                      <div class="blog-meta">
+                        <span class="dot"></span>
 
-              <li class="blog-post-item">
-                <a href="https://8bitblog.netlify.app/blogs/englishascoding">
-                  <figure class="blog-banner-box">
-                    <img
-                      src="https://8bitblog.netlify.app/assets/images/nvidiaLive.gif"
-                      loading="lazy"
-                    />
-                  </figure>
+                        <time datetime="2022-02-23">16-03-24</time>
+                      </div>
 
-                  <div class="blog-content">
-                    <div class="blog-meta">
-                      <span class="dot"></span>
+                      <h3 class="h3 blog-item-title">Nvidia CEO's Vision</h3>
 
-                      <time datetime="2022-02-23">16-03-24</time>
+                      <p class="blog-text">
+                        Nvidia CEO Jensen Huang has proposed a groundbreaking
+                        idea for the future of AI: using English as the
+                        universal coding language.
+                      </p>
                     </div>
-
-                    <h3 class="h3 blog-item-title">Nvidia CEO's Vision</h3>
-
-                    <p class="blog-text">
-                      Nvidia CEO Jensen Huang has proposed a groundbreaking idea
-                      for the future of AI: using English as the universal
-                      coding language.
-                    </p>
-                  </div>
-                </a>
-              </li>
-            </ul>
-            <h5
-              class="h5"
-              style="
-                margin-top: 15px;
-                text-decoration: none;
-                text-align: center;
-                color: var(--vegas-gold);
-              "
-            >
-              <a href="https://eightbit.netlify.app" style="color: white"
-                >Read more articles at
-                <b style="color: var(--vegas-gold)">8BIT BLOG</b></a
+                  </a>
+                </li>
+              </ul>
+              <h5
+                class="h5"
+                style="
+                  margin-top: 15px;
+                  text-decoration: none;
+                  text-align: center;
+                  color: var(--vegas-gold);
+                "
               >
-            </h5>
-          </section>
-        </article>
+                <a href="https://eightbit.netlify.app" style="color: white"
+                  >Read more articles at
+                  <b style="color: var(--vegas-gold)">8BIT BLOG</b></a
+                >
+              </h5>
+            </section>
+          </article>
 
-        <!--
+          <!--
         - #CONTACT
-      --></div>
-    </main>
-
+      -->
+        </div>
+      </main>
+    </div>
     <!--
     - custom js link
   -->
