@@ -16,11 +16,6 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("content").style.display = "block";
   }, 1500); // Adjust the delay as needed
 });
-/* script.js */
-window.onload = function () {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("content").style.display = "block";
-};
 
 // sidebar variables
 const sidebar = document.querySelector("[data-sidebar]");
