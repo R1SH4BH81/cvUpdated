@@ -51,7 +51,7 @@
   --vegas-gold: hsl(45, 63%, 62%);
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
-  --bittersweet-shimmer: hsl(0, 43%, 51%);
+  --bittersweet-shimmer: #080808;
 
   /**
     emailjs.send("service_8ged2zs", "template_gnc0056", formData)
@@ -448,7 +448,8 @@ body { background: var(--smoky-black); }
   justify-content: space-between;
   gap: 10px;
   min-height: 40px;
-  padding: 0 10px;
+  
+  padding: 0px 20px;
   border-radius: 4px;
   z-index: 1;
   background-color: #ffffff;
@@ -468,11 +469,13 @@ body { background: var(--smoky-black); }
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 90%;
-  margin: 0 auto;
+  width: 100%;
+ 
   z-index: -1;
+  
+ 
   border-radius: 0px 0px 4px 4px;
-  transform: translateY(0%);
+  transform: translateY(10%);
   background-color: #01e056;
   border: solid 1px #01e0572d;
   transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
@@ -480,21 +483,23 @@ body { background: var(--smoky-black); }
 }
 
 .download-button:hover .download {
-  transform: translateY(100%);
+  transform: translateY(190%);
 }
 
 .download svg polyline,
 .download svg line {
   animation: docs 1s infinite;
+  
 }
 
 @keyframes docs {
   0% {
     transform: translateY(0%);
+    
   }
 
   50% {
-    transform: translateY(-15%);
+    transform: translateY(-55%);
   }
 
   100% {
@@ -518,7 +523,7 @@ article {
 }
 .download{
   height: 20px;
-  margin-left: 10px;
+  
 }
 .separator {
   width: 100%;
@@ -662,7 +667,7 @@ main {
 
 .sidebar {
   margin-bottom: 15px;
-  max-height: 112px;
+  height: 122px;
   overflow: hidden;
   transition: var(--transition-2);
 }
