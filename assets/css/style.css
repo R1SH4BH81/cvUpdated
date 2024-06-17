@@ -470,16 +470,15 @@ body { background: var(--smoky-black); }
   align-items: center;
   justify-content: center;
   width: 100%;
- 
+  margin: 0 auto;
   z-index: -1;
-  
- 
   border-radius: 0px 0px 4px 4px;
   transform: translateY(10%);
   background-color: #01e056;
   border: solid 1px #01e0572d;
   transition: all 0.5s cubic-bezier(0.77, 0, 0.175, 1);
   cursor: pointer;
+  margin-bottom: 20px;
 }
 
 .download-button:hover .download {
@@ -489,13 +488,11 @@ body { background: var(--smoky-black); }
 .download svg polyline,
 .download svg line {
   animation: docs 1s infinite;
-  
 }
 
 @keyframes docs {
   0% {
     transform: translateY(0%);
-    
   }
 
   50% {
@@ -523,7 +520,7 @@ article {
 }
 .download{
   height: 20px;
-  
+ 
 }
 .separator {
   width: 100%;
@@ -667,7 +664,7 @@ main {
 
 .sidebar {
   margin-bottom: 15px;
-  height: 122px;
+  max-height: 112px;
   overflow: hidden;
   transition: var(--transition-2);
 }
@@ -2178,7 +2175,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     max-height: max-content;
     height: 100%;
     margin-bottom: 0;
-    padding-top: 60px;
+    padding-top: 50px;
     z-index: 1;
   }
 
