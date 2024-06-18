@@ -763,6 +763,7 @@ main {
   width: calc(100% - 46px);
 }
 
+
 .contact-title {
   color: var(--light-gray-70);
   font-size: var(--fs-8);
@@ -779,7 +780,7 @@ main {
 
 .social-list {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   gap: 20px;
   padding-bottom: 4px;
@@ -1221,11 +1222,12 @@ main {
 .social-link {
   position: relative;
   display: inline-block;
-  padding: 10px; /* Adjust padding as needed */
+  padding: 15px;
+
 }
 
 .social-link ion-icon, .social-link i {
-  font-size: 20px; /* Adjust icon size */
+  font-size: 24px; /* Adjust icon size */
 }
 
 /* LinkedIn Tooltip */
@@ -1240,7 +1242,6 @@ main {
   white-space: nowrap;
   font-size: 12px;
   bottom: 100%;
-  margin-left: 20px;
   left: 50%;
   font-weight: 600;
   transform: translateX(-50%);
